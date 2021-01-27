@@ -8,7 +8,7 @@
   [Third Example]
   
   # Table of contents
-1. [Introduction](#Task 1 - Clone Repo)
+1. [Introduction](#Task 1 Clone Repo)
 2. [Some paragraph](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
 3. [Another paragraph](#paragraph2)
