@@ -5,6 +5,14 @@
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
  
+  [Third Example]
+  
+  # Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+ 
 ## Task 1 - Clone Repo
 
 [Test Env Screenshot](https://github.com/DaleSDET/Hopin-QA-Challenge/blob/main/Screenshot%202021-01-27%20125703.jpg)
