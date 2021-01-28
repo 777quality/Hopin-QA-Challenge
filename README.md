@@ -34,26 +34,38 @@ http://localhost:3000/
 ___
 
 ### Test Cases
-#### 1 Welcome Screen
-
-| ID#  | BDD | Notes | Test Result |
-| :------------- | :------------- | :------------- | :------------- |
-| 1   | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
-| 2  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
-
-#### 2 Customer List Screen
-
-##### Submit a valid name
+####  Welcome Screen
+##### 1: Submit a valid name
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
 | 1   | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
 
-##### Submit a blank name
-| ID#  | Description | BDD | Notes | Test Result |
+##### 2: Submit a blank name
+| ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
 | 2  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
 
-#### 3 Contact Details Screen
+####  Customer List Screen
+##### 3: Submit a valid name
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 3   | Given I am on the Customer List screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
+
+##### 4: Submit a blank name
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 4  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
+
+####  Contact Details Screen
 
 
-#### 4 API
+####  API
+
+## Claification required
+
+"Size: if # of Employees is less than or equal 100, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big"
+ I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
+ 
+## Supporting Information
+
+
