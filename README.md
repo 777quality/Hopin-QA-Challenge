@@ -18,7 +18,10 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 | Module   | Description |
 | ------------- | ------------- |
 | Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of, Instructions text: "Please provide your name:", A text field where the user will input his/her name, and A Submit button.|
-| Customer List Screen | This screen presents the list of all registered customers. For each customer, the following info is shown: <ul><li>1. Name</li><li> 2. Number of Employees 3. Size: if number of Employees is less than or equal 100, size is Small; * if greater than 10 and less than or equal to 1000, Medium; otherwise, Large When the user clicks on a customer name, the Contacts Detail Screen is shown.  |
+| Customer List Screen | This screen presents the list of all registered customers. For each customer, the following info is shown: <ul><li>1. Name</li><li> 2. Number of Employees 3. Size: if number of Employees is less than or equal 100, size is Small;
+  
+  
+  if greater than 10 and less than or equal to 1000, Medium; otherwise, Large When the user clicks on a customer name, the Contacts Detail Screen is shown.  |
 | Contact Details Screen | Content Cell  |
 | API | Content Cell  |
 
