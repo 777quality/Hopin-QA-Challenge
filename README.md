@@ -31,7 +31,7 @@ ___
 
 | ID#  | Description | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- | ------------- |
-| 1    | Submit a valid name | 'Given I am on the welcome screen <br/> > When I provide my name <br/> > And I submit my name <br/> > Then I can see the Customer List Screen' | Alert message should read "Please provide your name." | Test Result |
+| 1    | Submit a valid name | ```Given I am on the welcome screen <br/> > When I provide my name <br/> > And I submit my name <br/> > Then I can see the Customer List Screen'``` | Alert message should read "Please provide your name." | Test Result |
 | ID#  | Description | BDD | Notes | Test Result |
 
 #### 2 Customer List Screen
