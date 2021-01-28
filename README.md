@@ -11,3 +11,18 @@
 
 ## Task 2 - Create a test plan and run it manually
 
+NB: I have taken note of the requirement for a "test plan that will **minimally** contain the steps that have to be taken" in respect to this, the documented tests below are not as extensively detailed as they may have been.
+
+### Inscope
+
+| Module   | Description |
+| ------------- | ------------- |
+| Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of:
+Instructions text: "Please provide your name:";
+A text field where the user will input his/her name; and
+A Submit button;
+  |
+| Customer List Screen | Content Cell  |
+| Contact Details Screen | Content Cell  |
+| API | Content Cell  |
+
