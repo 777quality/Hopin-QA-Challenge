@@ -27,10 +27,10 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 ### Test Cases
 #### 1 Welcome Screen
 
-| ID#  | Description | BDD | Notes |
+| ID#  | Description | BDD | Notes | Test Result |
 | ------------- | ------------- |------------- | ------------- |
-| 1    | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen |
-| 2    | hfghgfhfghf |  Alert message should read "Please provide your name."   |   test    |
+| 1    | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name."   
+| ID#  | Description | BDD | Notes | Test Result |
 
 #### 2 Customer List Screen
 #### 3 Contact Details Screen
