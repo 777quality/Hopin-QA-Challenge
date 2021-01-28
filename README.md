@@ -24,6 +24,11 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 
 ### Out of Scope
 
+### Test Environment
+[Test Environment Setup Instructions]/(https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
+
+http://localhost:3000/
+
 ___
 
 ### Test Cases
@@ -32,8 +37,16 @@ ___
 | ID#  | Description | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- | ------------- |
 | 1    | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
-| ID#  | Description | BDD | Notes | :heavy_check_mark: |
+| 2  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
 
 #### 2 Customer List Screen
+
+| ID#  | Description | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- | ------------- |
+| 1    | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
+| 2  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
+
 #### 3 Contact Details Screen
+
+
 #### 4 API
