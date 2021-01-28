@@ -17,10 +17,7 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 
 | Module   | Description |
 | ------------- | ------------- |
-| Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of:
-Instructions text: "Please provide your name:";
-A text field where the user will input his/her name; and
-A Submit button;
+| Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of: Instructions text: "Please provide your name:"; A text field where the user will input his/her name; and A Submit button;
   |
 | Customer List Screen | Content Cell  |
 | Contact Details Screen | Content Cell  |
