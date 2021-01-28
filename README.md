@@ -29,11 +29,11 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 
 | ID#  | Description | BDD | Notes |
 | ------------- | ------------- |------------- | ------------- |
-| 1    | Submit a valid name | Given I am on the welcome screen 
+| 1    | Submit a valid name | Given I am on the welcome screen <br/>
 When I provide my name
 And I submit my name
 Then I can see the Customer List Screen |
-| 2    | hfghgfhfghf |     |       |
+| 2    | hfghgfhfghf |  test   |   test    |
 
 #### 2 Customer List Screen
 #### 3 Contact Details Screen
