@@ -13,7 +13,7 @@
 
 NB: I have taken note of the requirement for a "test plan that will **minimally** contain the steps that have to be taken" in respect to this, the documented tests below are not as extensively detailed as they may have been.
 
-### Inscope
+### In Scope
 
 | Module   | Description |
 | ------------- | ------------- |
@@ -22,3 +22,4 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 | Contact Details Screen | Content Cell  |
 | API | Content Cell  |
 
+### Out of Scope
