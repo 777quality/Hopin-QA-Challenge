@@ -13,6 +13,8 @@
 
 NB: I have taken note of the requirement for a "test plan that will **minimally** contain the steps that have to be taken" in respect to this, the documented tests below are not as extensively detailed as they may have been.
 
+Our approach is a blend of exploratory testing with test automation for the UI user journeys and API's.
+
 ### In Scope
 
 | Module   | Description |
@@ -41,9 +43,14 @@ ___
 
 #### 2 Customer List Screen
 
+##### Submit a valid name
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 1    | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
+
+##### Submit a blank name
 | ID#  | Description | BDD | Notes | Test Result |
-| :------------- | :------------- | :------------- | :------------- | ------------- |
-| 1    | Submit a valid name | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
+| :------------- | :------------- | :------------- | :------------- |
 | 2  | Submit a blank name | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
 
 #### 3 Contact Details Screen
