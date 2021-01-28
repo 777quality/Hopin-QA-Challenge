@@ -28,6 +28,7 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 #### 1 Welcome Screen
 
 | ID#  | Description | BDD | Notes |
+| ------------- | ------------- || ------------- | ------------- |
 | 1    | Submit a valid name | Given I am on the welcome screen <br>
 When I provide my name <br>
 And I submit my name<br>
