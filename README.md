@@ -25,7 +25,7 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 ### Out of Scope
 
 ### Test Environment
-[Test Environment Setup Instructions]/(https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
+[Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
 
 http://localhost:3000/
 
