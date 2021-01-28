@@ -18,8 +18,22 @@ NB: I have taken note of the requirement for a "test plan that will **minimally*
 | Module   | Description |
 | ------------- | ------------- |
 | Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of, Instructions text: "Please provide your name:", A text field where the user will input his/her name, and A Submit button.|
-| Customer List Screen | This screen presents the list of all registered customers. For each customer, the following info is shown: 1. Name <BR><BR> 2. Number of Employees <BR><BR> 3. Size: if number of Employees is less than or equal 100, size is Small; if greater than 10 and less than or equal to 1000, Medium; otherwise, Large <BR><BR> When the user clicks on a customer name, the Contacts Detail Screen is shown.  |
-| Contact Details Screen | Content Cell  |
+| Customer List Screen | This screen presents the list of all registered customers. For each customer, the following info is shown: <BR>1. Name <BR><BR> 2. Number of Employees <BR><BR> 3. Size: if number of Employees is less than or equal 100, size is Small; if greater than 10 and less than or equal to 1000, Medium; otherwise, Large <BR><BR> When the user clicks on a customer name, the Contacts Detail Screen is shown.  |
+| Contact Details Screen | This screen shows the customers detailed info (Name, # of Employees, and Size) and also the name and e-mail of the person in the company to be contacted. |
 | API | Content Cell  |
 
 ### Out of Scope
+
+### Test Cases
+#### 1 Welcome Screen
+
+| ID#  | Description | BDD | Notes |
+| 1    | Submit a valid name | Given I am on the welcome screen <br>
+When I provide my name <br>
+And I submit my name<br>
+Then I can see the Customer List Screen |
+| 2    | hfghgfhfghf |     |       |
+
+#### 2 Customer List Screen
+#### 3 Contact Details Screen
+#### 4 API
