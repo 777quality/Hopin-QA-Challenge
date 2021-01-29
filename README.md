@@ -51,15 +51,29 @@ ___
 | :------------- | :------------- | :------------- | :------------- |
 | 3   | Given I am on the Customer List Screen <br/> Then I can see all registered customers | Validations on presence of Name, # of Employees, Size: if # of Employees for all customers | :heavy_check_mark: |
 
-##### 4: Submit a blank name
+##### 4: User can navigate from Customer List to Contact Details Screen
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 4  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
+| 4   | Given I am on the Customer List Screen <br/> When click on a customer name <br/> Then the Contacts Detail Screen for this customer |  | :heavy_check_mark: |
 
 ####  Contact Details Screen
+##### 5: User can navigate from Customer List to Contact Details Screen
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 5   | Given I am on the Customer Detail Screen <br/> When I click the Back to the list button <br/> Then I should see the Customer List Screen |  | :heavy_check_mark: |
 
+##### 6: Alert to be presented for Customr with no contact information
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented |  | :heavy_check_mark: |
 
 ####  API
+##### 7: Submit a blank name
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 7  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
+
+
 
 ## Claification required
 
@@ -67,5 +81,3 @@ ___
  I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
  
 ## Supporting Information
-
-
