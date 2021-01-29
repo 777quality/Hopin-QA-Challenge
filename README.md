@@ -54,7 +54,7 @@ ___
 ##### 4: Submit a blank name
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 4  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = <TextSize> | <= 100            Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001           Big | :heavy_check_mark: |
+| 4  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
 ####  Contact Details Screen
 
