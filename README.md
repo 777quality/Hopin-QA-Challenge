@@ -43,7 +43,7 @@ ___
 ##### 2: Submit a blank name
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 2  | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Notes | :heavy_check_mark: |
+| 2  | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message |  | :heavy_check_mark: |
 
 ####  Customer List Screen
 ##### 3: Validate presence of all customers on Customer List Screen
@@ -68,12 +68,15 @@ ___
 | 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented |  | :heavy_check_mark: |
 
 ####  API
-##### 7: Submit a blank name
+##### 7: validate the size object in the response
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
 | 7  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
-
+##### 8: validate the size object in the response
+| ID#  | BDD | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
 ## Claification required
 
