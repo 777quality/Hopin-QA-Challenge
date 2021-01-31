@@ -38,12 +38,12 @@ ___
 ##### 1: Submit a valid name
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 1   | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen | Alert message should read "Please provide your name." | :heavy_check_mark: |
+| 1   | Given I am on the welcome screen <br/> When I provide my name <br/> And I submit my name <br/> Then I can see the Customer List Screen |  | :heavy_check_mark: |
 
 ##### 2: Submit a blank name
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 2  | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message |  | :heavy_check_mark: |
+| 2  | Given I am on the welcome screen <br/> When I leave the name field blank <br/> And I submit my name <br/> Then I can see an alert message | Alert message should read "Please provide your name."  | :heavy_check_mark: |
 
 ####  Customer List Screen
 ##### 3: Validate presence of all customers on Customer List Screen
