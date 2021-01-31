@@ -65,7 +65,7 @@ ___
 ##### 6: Alert to be presented for Customer with no contact information
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented |  | :heavy_check_mark: |
+| 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented | Test Failed, unable to verify from the UI, as per error seen in Test 4. All other existing data cntains user contact information. | :x: |
 
 ####  API
 ##### 7: validate the size object in the response
