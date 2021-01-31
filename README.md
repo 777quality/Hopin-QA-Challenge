@@ -78,7 +78,11 @@ ___
 | :------------- | :------------- | :------------- | :------------- |
 | 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
-## Claification required
+## Claifications / Assumptions
+
+"Create a test plan that will *minimally* contain the steps that have to be taken and their expected results;" the term, minimally contain the steps that have to be taken, can be interpreted in multiple ways. One way could be that it is referring to the test steps, and to minimally outline these. Another way, and the way that it has been applied here is that it is referring to the fact that an extensive test plan is not required, rather one that validates the requirements in the requirements document only, and nothing else.
+
+There are multiple typos throughout the task description.
 
 "Size: if # of Employees is less than or equal 100, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big"
  I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
@@ -91,5 +95,5 @@ The requirements contain two conflicting statements:
 * customer size is: Small, when # of employees is <= 10; Medium when it is <= 1000; Big otherwise.
 
 I have assumed that this is a typo, and the correct requirement is Size: if # of Employees is less than or equal 10, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big
- 
+
 ## Supporting Information
