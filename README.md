@@ -84,5 +84,12 @@ ___
  I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
  
 "When a customer doesn't have contact info, the message No contact info available should be presented." How is such an alert to be provided? where? Should the customer contact detail screen still load?
+
+The requirements contain two conflicting statements:
+
+* Size: if # of Employees is less than or equal 100, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big
+* customer size is: Small, when # of employees is <= 10; Medium when it is <= 1000; Big otherwise.
+
+I have assumed that this is a typo, and the correct requirement is Size: if # of Employees is less than or equal 10, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big
  
 ## Supporting Information
