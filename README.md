@@ -54,7 +54,7 @@ ___
 ##### 4: User can navigate from Customer List to Contact Details Screen
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 4   | Given I am on the Customer List Screen <br/> When click on a customer name <br/> Then the Contacts Detail Screen for this customer |  | :x: Test fails upon selecting Name: United Brands - "TypeError: Cannot read property 'name' of undefined" |
+| 4   | Given I am on the Customer List Screen <br/> When click on a customer name <br/> Then the Contacts Detail Screen for this customer | Test fails upon selecting Name: United Brands - "TypeError: Cannot read property 'name' of undefined" | :x: |
 
 ####  Contact Details Screen
 ##### 5: User can navigate from Contact Details Screen to Customer List Screen 
