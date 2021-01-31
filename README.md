@@ -57,12 +57,12 @@ ___
 | 4   | Given I am on the Customer List Screen <br/> When click on a customer name <br/> Then the Contacts Detail Screen for this customer |  | :x: Test fails upon selecting Name: United Brands - "TypeError: Cannot read property 'name' of undefined" |
 
 ####  Contact Details Screen
-##### 5: User can navigate from Customer List to Contact Details Screen
+##### 5: User can navigate from Contact Details Screen to Customer List Screen 
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 5   | Given I am on the Customer Detail Screen <br/> When I click the Back to the list button <br/> Then I should see the Customer List Screen |  | :heavy_check_mark: |
+| 5   | Given I am on the Customer Detail Screen <br/> When I click the Back to the list button <br/> Then I should see the Customer List Screen | Test fails for the user named United Brands, as back to the list button is not displayed, due to error seen in test 4. | :x: |
 
-##### 6: Alert to be presented for Customr with no contact information
+##### 6: Alert to be presented for Customer with no contact information
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
 | 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented |  | :heavy_check_mark: |
@@ -82,5 +82,7 @@ ___
 
 "Size: if # of Employees is less than or equal 100, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big"
  I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
+ 
+"When a customer doesn't have contact info, the message No contact info available should be presented." How is such an alert to be provided? where? Should the customer contact detail screen still load?
  
 ## Supporting Information
