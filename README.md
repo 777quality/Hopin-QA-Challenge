@@ -80,7 +80,7 @@ ___
 
 ## Claifications / Assumptions
 
-Contacts Detail Screen - "the message No contact info available should be presented." it is not made clear how this message should be presented exactly, is this a popup message, an overlay or a text message within an onscreen element?
+Contacts Detail Screen - "the message No contact info available should be presented." it is not made clear how this message should be presented exactly, is this a popup message, an overlay or a text message within an onscreen element? will the customer information still be displayed, despite the lack of contact information?
 
 "Create a test plan that will *minimally* contain the steps that have to be taken and their expected results;" the term, minimally contain the steps that have to be taken, can be interpreted in multiple ways. One way could be that it is referring to the test steps, and to minimally outline these. Another way, and the way that it has been applied here is that it is referring to the fact that an extensive test plan is not required, rather one that validates the requirements in the requirements document only, and nothing else.
 
