@@ -65,7 +65,7 @@ ___
 ##### 6: Alert to be presented for Customer with no contact information
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented | Test Failed, unable to verify from the UI, as per error seen in Test 4. All other existing data cntains user contact information. | :x: |
+| 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented | Test Failed, unable to verify from the UI, as per error seen in Test 4. All other existing data contains user contact information, thus no Alert message seen. | :x: |
 
 ####  API
 ##### 7: validate the size object in the response
@@ -79,6 +79,8 @@ ___
 | 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
 ## Claifications / Assumptions
+
+Contacts Detail Screen - "the message No contact info available should be presented." it is not made clear how this message should be presented exactly, is this a popup message, an overlay or a text message within an onscreen element?
 
 "Create a test plan that will *minimally* contain the steps that have to be taken and their expected results;" the term, minimally contain the steps that have to be taken, can be interpreted in multiple ways. One way could be that it is referring to the test steps, and to minimally outline these. Another way, and the way that it has been applied here is that it is referring to the fact that an extensive test plan is not required, rather one that validates the requirements in the requirements document only, and nothing else.
 
