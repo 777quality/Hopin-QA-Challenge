@@ -71,12 +71,12 @@ ___
 ##### 7: validate the size object in the response
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 7  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
+| 7  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >100 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
 ##### 8: validate the size object in the response
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >10 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
+| 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >100 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
 ## Claifications / Assumptions
 
