@@ -111,20 +111,18 @@ Go to the current directory where you want the cloned directory to be added.
 
 Clone the respository by your preferred method, or type:
 
-'''git clone https://github.com/777quality/Hopin-QA-Challenge.git'''
+```git clone https://github.com/777quality/Hopin-QA-Challenge.git```
 
 Run the following command (in the location of your local repo containing the requirements.txt file) and all the required dependancies shall be installed: 
 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 Start the application under test as detailed in [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
 
 Run the following command (in the TestCases/ui-tests/ directory) to run the User Interface Test Suite:
 
-'''robot testsuiteui.robot'''
+```robot testsuiteui.robot```
 
 Run the following command (in the TestCases/api-tests/ directory), to run the API test suite:
 
-"""
-robot testsuiteapi.robot
-"""
+```robot testsuiteapi.robot```
