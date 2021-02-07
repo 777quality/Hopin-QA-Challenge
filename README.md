@@ -24,7 +24,7 @@ Our approach is a blend of exploratory testing with test automation for the UI u
 | Welcome Screen  | The Welcome Screen presents the user to a form where he/she can be identified. The form consists of, Instructions text: "Please provide your name:", A text field where the user will input his/her name, and A Submit button.|
 | Customer List Screen | This screen presents the list of all registered customers. For each customer, the following info is shown: <BR>1. Name <BR><BR> 2. Number of Employees <BR><BR> 3. Size: if number of Employees is less than or equal 100, size is Small; if greater than 10 and less than or equal to 1000, Medium; otherwise, Large <BR><BR> When the user clicks on a customer name, the Contacts Detail Screen is shown.  |
 | Contact Details Screen | This screen shows the customers detailed info (Name, # of Employees, and Size) and also the name and e-mail of the person in the company to be contacted. |
-| API | Content Cell  |
+| API | The app backend offers 1 endpoint:   POST /  |
 
 ### Test Environment
 [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
@@ -98,16 +98,13 @@ ___
 
 ## Claifications / Assumptions
 
-Contacts Detail Screen - "the message No contact info available should be presented." it is not made clear how this message should be presented exactly, is this a popup message, an overlay or a text message within an onscreen element? will the customer information still be displayed, despite the lack of contact information?
+* Contacts Detail Screen - "the message No contact info available should be presented." it is not made clear how this message should be presented exactly, is this a popup message, an overlay or a text message within an onscreen element? will the customer information still be displayed, despite the lack of contact information?
 
-"Create a test plan that will *minimally* contain the steps that have to be taken and their expected results;" the term, minimally contain the steps that have to be taken, can be interpreted in multiple ways. One way could be that it is referring to the test steps, and to minimally outline these. Another way, and the way that it has been applied here is that it is referring to the fact that an extensive test plan is not required, rather one that validates the requirements in the requirements document only, and nothing else.
+* "Create a test plan that will *minimally* contain the steps that have to be taken and their expected results;" the term, minimally contain the steps that have to be taken, can be interpreted in multiple ways. One way could be that it is referring to the test steps, and to minimally outline these. Another way, and the way that it has been applied here is that it is referring to the fact that an extensive test plan is not required, rather one that validates the requirements in the requirements document only, and nothing else.
 
-There are multiple typos throughout the task description.
+* There are multiple typos throughout the task description.
 
-"Size: if # of Employees is less than or equal 100, size is Small; if greater then 10 and less then or equal 1000, Medium; otherwise, Big"
- I need to question this, and find out what Size is referring to, it would be assumed the text size. However, even in this case, Big, Medium and Small need to be defined.
- 
-"When a customer doesn't have contact info, the message No contact info available should be presented." How is such an alert to be provided? where? Should the customer contact detail screen still load?
+* "When a customer doesn't have contact info, the message No contact info available should be presented." How is such an alert to be provided? where? Should the customer contact detail screen still load?
 
 The requirements contain two conflicting statements:
 
@@ -116,7 +113,7 @@ The requirements contain two conflicting statements:
 
 I have assumed that this is a typo, and the correct requirement is Size: if # of Employees is less than or equal 100, size is Small; if greater then 100 and less then or equal 1000, Medium; otherwise, Big
 
-What is the desired behaviour, when the employee size returned is negative?
+* What is the desired behaviour, when the employee size returned is negative?
 
 ___
 
