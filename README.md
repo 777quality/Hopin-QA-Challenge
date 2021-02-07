@@ -25,8 +25,6 @@ Our approach is a blend of exploratory testing with test automation for the UI u
 | Contact Details Screen | This screen shows the customers detailed info (Name, # of Employees, and Size) and also the name and e-mail of the person in the company to be contacted. |
 | API | Content Cell  |
 
-### Out of Scope
-
 ### Test Environment
 [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
 
@@ -126,3 +124,5 @@ Run the following command (in the TestCases/ui-tests/ directory) to run the User
 Run the following command (in the TestCases/api-tests/ directory), to run the API test suite:
 
 ```robot testsuiteapi.robot```
+
+Reports following the test can be found in the same directory as the .robot files, report.html. Open with Chrome/Firefox to review test results.
