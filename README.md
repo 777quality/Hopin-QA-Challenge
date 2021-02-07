@@ -1,10 +1,11 @@
 # Hopin QA Challenge
 # Table of Contents
-1. [Task 1 - Clone Repo](https://github.com/DaleSDET/Hopin-QA-Challenge/blob/main/README.md#task-1---clone-repo)
-2. [Task 2 - Create a test plan and run it manually](https://github.com/DaleSDET/Hopin-QA-Challenge/blob/main/README.md#task-2---create-a-test-plan-and-run-it-manually)
+1. [Task 1 - Clone Repo](#task-1---clone-repo)
+2. [Task 2 - Create a test plan and run it manually](#task-2---create-a-test-plan-and-run-it-manually)
 3. [Task 3 - Create an automated API level test scenario](#third-example)
 4. [Task 4 - Create an automated UI level test scenario](#fourth-examplehttpwwwfourthexamplecom)
-5. [How to install / run the test suite]()
+5. [Claifications / Assumptions](#claifications--assumptions)
+6. [How to install / run the test suite](#how-to-install--run-the-test-suite)
 
 ## Task 1 - Clone Repo
 
