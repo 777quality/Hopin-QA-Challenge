@@ -1,0 +1,189 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "name": "<name of the user>",
+            "timestamp": "<timestamp of the request>",
+            "customers": [
+                {
+                    "id": 123456,
+                    "name": "<customer's name>",
+                    "employees": 123456,
+                    "contactInfo": {
+                        "name": "<contact person's name>",
+                        "email": "<contact person's email>"
+                    },
+                    "size": "<company size>"
+                }
+            ]
+        }
+    ],
+    "required": [
+        "name",
+        "timestamp",
+        "customers"
+    ],
+    "properties": {
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "title": "The name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "<name of the user>"
+            ]
+        },
+        "timestamp": {
+            "$id": "#/properties/timestamp",
+            "type": "string",
+            "title": "The timestamp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "<timestamp of the request>"
+            ]
+        },
+        "customers": {
+            "$id": "#/properties/customers",
+            "type": "array",
+            "title": "The customers schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "id": 123456,
+                        "name": "<customer's name>",
+                        "employees": 123456,
+                        "contactInfo": {
+                            "name": "<contact person's name>",
+                            "email": "<contact person's email>"
+                        },
+                        "size": "<company size>"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/customers/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/customers/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "id": 123456,
+                                "name": "<customer's name>",
+                                "employees": 123456,
+                                "contactInfo": {
+                                    "name": "<contact person's name>",
+                                    "email": "<contact person's email>"
+                                },
+                                "size": "<company size>"
+                            }
+                        ],
+                        "required": [
+                            "id",
+                            "name",
+                            "employees",
+                            "size"
+                        ],
+                        "properties": {
+                            "id": {
+                                "$id": "#/properties/customers/items/anyOf/0/properties/id",
+                                "type": "integer",
+                                "title": "The id schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    123456
+                                ]
+                            },
+                            "name": {
+                                "$id": "#/properties/customers/items/anyOf/0/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "<customer's name>"
+                                ]
+                            },
+                            "employees": {
+                                "$id": "#/properties/customers/items/anyOf/0/properties/employees",
+                                "type": "integer",
+                                "title": "The employees schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    123456
+                                ]
+                            },
+                            "contactInfo": {
+                                "$id": "#/properties/customers/items/anyOf/0/properties/contactInfo",
+                                "type": "object",
+                                "title": "The contactInfo schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": {},
+                                "examples": [
+                                    {
+                                        "name": "<contact person's name>",
+                                        "email": "<contact person's email>"
+                                    }
+                                ],
+                                "required": [
+                                    "name",
+                                    "email"
+                                ],
+                                "properties": {
+                                    "name": {
+                                        "$id": "#/properties/customers/items/anyOf/0/properties/contactInfo/properties/name",
+                                        "type": "string",
+                                        "title": "The name schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "<contact person's name>"
+                                        ]
+                                    },
+                                    "email": {
+                                        "$id": "#/properties/customers/items/anyOf/0/properties/contactInfo/properties/email",
+                                        "type": "string",
+                                        "title": "The email schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "<contact person's email>"
+                                        ]
+                                    }
+                                },
+                                "additionalProperties": true
+                            },
+                            "size": {
+                                "$id": "#/properties/customers/items/anyOf/0/properties/size",
+                                "type": "string",
+                                "title": "The size schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "<company size>"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}

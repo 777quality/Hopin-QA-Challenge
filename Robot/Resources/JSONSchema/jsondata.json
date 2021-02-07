@@ -1,0 +1,16 @@
+{
+    "name":"<name of the user>",
+    "timestamp":"<timestamp of the request>",
+    "customers":[
+        {
+            "id":123456,
+            "name":"<customer's name>",
+            "employees":123456,
+            "contactInfo":
+            {
+                "name":"<contact person's name>",
+                "email":"<contact person's email>"
+            },
+            "size":"<company size>"}
+]
+}
