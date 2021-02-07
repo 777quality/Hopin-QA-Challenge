@@ -68,15 +68,33 @@ ___
 | 6   | Given I am on the Customer Detail Screen <br/> When a customer does not have contact information <br/> Then message "No contact info available" should be presented | Test Failed, unable to verify from the UI, as per error seen in Test 4. All other existing data contains user contact information, thus no Alert message seen. | :x: |
 
 ####  API
-##### 7: validate the size object in the response
-| ID#  | BDD | Notes | Test Result |
-| :------------- | :------------- | :------------- | :------------- |
-| 7  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >100 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
 
-##### 8: validate the size object in the response
+##### 7: API 1: POST Response - validate status 200
+| ID#  | Description | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 7  | Response status code should equal 200 | :heavy_check_mark: |
+
+##### 8: API 2: POST Response - validate name and response is as previously seen
+| ID#  | Description | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 8  | Response contains User Name <br> Response is as previously seen | :heavy_check_mark: |
+
+##### 9: API 3: POST Response - if no contact info then no contactInfo attribute
+| ID#  | Description | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 9  | Customer without Contact Email and Contact Name, should not have contactInfo attribute in JSON response | :heavy_check_mark: |
+
+##### 10: API 4: POST Response - validate SIZE attribute logic
 | ID#  | BDD | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 8  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | {EmployeeCount}  {TextSize} <br/> <= 100      Small <br/>  >100 and <= 1000   Medium <br/>  >= 1001      Big | :heavy_check_mark: |
+| 10  | Given I am on the Customer List Screen <br/> And # of Employees is {EmployeeCount} <br/> Then Text Size = {TextSize} | if # of Employees is less than or equal 100, size is Small; if greater then 100 and less then or equal 1000, Medium; otherwise, Big | :x: |
+
+##### 11: API 5: POST Response - Validate response against JSON Schema
+| ID#  | Description | Notes | Test Result |
+| :------------- | :------------- | :------------- | :------------- |
+| 11  | Validate response against JSON schema provided in Requirements | :heavy_check_mark: |
+
+___
 
 ## Claifications / Assumptions
 
@@ -97,6 +115,10 @@ The requirements contain two conflicting statements:
 * customer size is: Small, when # of employees is <= 10; Medium when it is <= 1000; Big otherwise.
 
 I have assumed that this is a typo, and the correct requirement is Size: if # of Employees is less than or equal 100, size is Small; if greater then 100 and less then or equal 1000, Medium; otherwise, Big
+
+What is the desired behaviour, when the employee size returned is negative?
+
+___
 
 ## How to install / run the test suite
 
