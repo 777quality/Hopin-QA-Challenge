@@ -4,6 +4,7 @@
 2. [Task 2 - Create a test plan and run it manually](https://github.com/DaleSDET/Hopin-QA-Challenge/blob/main/README.md#task-2---create-a-test-plan-and-run-it-manually)
 3. [Task 3 - Create an automated API level test scenario](#third-example)
 4. [Task 4 - Create an automated UI level test scenario](#fourth-examplehttpwwwfourthexamplecom)
+5. [How to install / run the test suite]()
 
 ## Task 1 - Clone Repo
 
@@ -98,4 +99,10 @@ The requirements contain two conflicting statements:
 
 I have assumed that this is a typo, and the correct requirement is Size: if # of Employees is less than or equal 100, size is Small; if greater then 100 and less then or equal 1000, Medium; otherwise, Big
 
-## Supporting Information
+## How to install / run the test suite
+
+the following instructions are written for Windows users.
+
+### Clone the respository
+### Start application under test as detailed in [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
+### 
