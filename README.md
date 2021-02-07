@@ -102,9 +102,12 @@ I have assumed that this is a typo, and the correct requirement is Size: if # of
 
 The following instructions are written for Windows users, commands executed on Mac may vary.
 
+### System Requirements
 Install Git - https://git-scm.com/download/win
 Install Python - https://www.python.org/ during intallation ensure you configure PATH.
+Download chromedriver for Chrome, and place it into a directory that is in PATH. - https://chromedriver.chromium.org/
 
+### Follow me step by step
 Open powershell
 
 Go to the current directory where you want the cloned directory to be added.
