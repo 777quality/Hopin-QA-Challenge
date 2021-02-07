@@ -1,4 +1,13 @@
-# Hopin QA Challenge
+# Hopin QA Challenge :rocket:
+## Summary
+This project consists of a Robot Framework 🤖 test suite (along with various custom libraries), for testing the UI and API of a ReactJS / Node.js application.
+
+Robot Framework is open and extensible and can be integrated with virtually any other tool to create powerful and flexible automation solutions.
+
+* Page Object Model, has been utilised to ensure future test maintainability.
+* Web Locators have been carefully selected to resist DOM structure changes.
+* BDD / Gherkin Style Syntax has been used for the UI tests to demonstrate the possibility for writing tests with this style, and API tests with procedural.
+
 # Table of Contents
 1. [Task 1 - Clone Repo](#task-1---clone-repo)
 2. [Task 2 - Create a test plan and run it manually](#task-2---create-a-test-plan-and-run-it-manually)
