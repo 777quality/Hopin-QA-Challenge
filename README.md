@@ -125,9 +125,6 @@ Run the following command (in the TestCases/ui-tests/ directory) to run the User
 
 Run the following command (in the TestCases/api-tests/ directory), to run the API test suite:
 
-'''
+"""
 robot testsuiteapi.robot
-'''
-
-
-
+"""
