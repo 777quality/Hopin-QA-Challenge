@@ -100,8 +100,9 @@ I have assumed that this is a typo, and the correct requirement is Size: if # of
 
 ## How to install / run the test suite
 
-the following instructions are written for Windows users.
+The following instructions are written for Windows users, commands executed on Mac may vary.
 
+Install Git - https://git-scm.com/download/win
 Install Python - https://www.python.org/ during intallation ensure you configure PATH.
 
 Open powershell
@@ -112,7 +113,7 @@ Clone the respository by your preferred method, or type:
 
 ```git clone https://github.com/777quality/Hopin-QA-Challenge.git```
 
-Run the following command (in the location of your local repo containing the requirements.txt file) and all the required dependancies shall be installed: 
+Run the following command (in the location of your local repo containing the requirements.txt file) and all the required Robot Framework/Library dependancies shall be installed:
 
 ```pip install -r requirements.txt```
 
