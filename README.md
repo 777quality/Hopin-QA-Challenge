@@ -81,17 +81,17 @@ ___
 ##### 7: API 1: POST Response - validate status 200
 | ID#  | Description | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 7  | Response status code should equal 200 | :heavy_check_mark: |
+| 7  | Response status code should equal 200 |  | :heavy_check_mark: |
 
 ##### 8: API 2: POST Response - validate name and response is as previously seen
 | ID#  | Description | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 8  | Response contains User Name <br> Response is as previously seen | :heavy_check_mark: |
+| 8  | Response contains User Name <br> Response is as previously seen |  | :heavy_check_mark: |
 
 ##### 9: API 3: POST Response - if no contact info then no contactInfo attribute
 | ID#  | Description | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 9  | Customer without Contact Email and Contact Name, should not have contactInfo attribute in JSON response | :heavy_check_mark: |
+| 9  | Customer without Contact Email and Contact Name, should not have contactInfo attribute in JSON response |  | :heavy_check_mark: |
 
 ##### 10: API 4: POST Response - validate SIZE attribute logic
 | ID#  | BDD | Notes | Test Result |
@@ -101,7 +101,7 @@ ___
 ##### 11: API 5: POST Response - Validate response against JSON Schema
 | ID#  | Description | Notes | Test Result |
 | :------------- | :------------- | :------------- | :------------- |
-| 11  | Validate response against JSON schema provided in Requirements | :heavy_check_mark: |
+| 11  | Validate response against JSON schema provided in Requirements |  | :heavy_check_mark: |
 
 ___
 
