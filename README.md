@@ -103,6 +103,16 @@ I have assumed that this is a typo, and the correct requirement is Size: if # of
 
 the following instructions are written for Windows users.
 
-### Clone the respository
-### Start application under test as detailed in [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
-### 
+Install and then Open Git Bash - https://gitforwindows.org/
+
+Go to the current directory where you want the cloned directory to be added.
+
+Clone the respository by your preferred method, or type:
+
+$ git clone https://github.com/777quality/Hopin-QA-Challenge.git
+
+Press Enter
+
+Start the application under test as detailed in [Test Environment Setup Instructions](https://github.com/smcostareisHopin/Hopin-Exam-QE/blob/main/TestEnvironment.md)
+
+
