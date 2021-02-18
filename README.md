@@ -1,4 +1,4 @@
-# Hopin QA Challenge :rocket:
+# Robot Framework UI & API Demo :rocket:
 ## Summary
 This project consists of a Robot Framework 🤖 test suite (along with various custom libraries), for testing the UI and API of a ReactJS / Node.js application.
 
